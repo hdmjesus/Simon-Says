@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Simon Says</title>
+</head>
+
+</head>
+
+<body>
+    <div class="game">
+        <div class="gameboard" id="gameboard">
+            <div id="celeste" class="color celeste left" data-color="celeste"></div>
+            <div id="violeta" class="color violeta right" data-color="violeta"></div>
+            <div id="amarillo" class="color amarillo left" data-color="amarillo"></div>
+            <div id="verde" class="color verde right" data-color="verde"></div>
+            <button id="btnEmpezar" class="btn-start">Empezar a jugar!</button>
+        </div>
+
+        <div class="puntuacion">
+            <h2>Puntuacion</h2>
+            <div class="score">
+                <p> Score: </p>
+                <p id="score"></p>
+            </div>
+
+            <div class="level">
+                <p>Nivel:</p>
+                <p id="level"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
